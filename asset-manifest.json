@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1b6d5a8d.css",
-    "main.js": "/portfolio/static/js/main.5143bfe3.js",
+    "main.js": "/portfolio/static/js/main.18826da9.js",
     "static/media/mysql.png": "/portfolio/static/media/mysql.67d8280c2b024cdb165b.png",
     "static/media/DanielChacon_resume.pdf": "/portfolio/static/media/DanielChacon_resume.6e1a8b913b5febed42dc.pdf",
     "static/media/cryptoChecker.png": "/portfolio/static/media/cryptoChecker.a10e906f58518548cf0b.png",
@@ -10,6 +10,7 @@
     "static/media/react.png": "/portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/blue-logo.png": "/portfolio/static/media/blue-logo.51bef38ff15340685fdf.png",
     "static/media/mongo.png": "/portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/typingSpeedTest.PNG": "/portfolio/static/media/typingSpeedTest.6ff005b7fc0f4ff83fe1.PNG",
     "static/media/github.png": "/portfolio/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -20,10 +21,10 @@
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
     "main.1b6d5a8d.css.map": "/portfolio/static/css/main.1b6d5a8d.css.map",
-    "main.5143bfe3.js.map": "/portfolio/static/js/main.5143bfe3.js.map"
+    "main.18826da9.js.map": "/portfolio/static/js/main.18826da9.js.map"
   },
   "entrypoints": [
     "static/css/main.1b6d5a8d.css",
-    "static/js/main.5143bfe3.js"
+    "static/js/main.18826da9.js"
   ]
 }
