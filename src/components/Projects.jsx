@@ -4,6 +4,7 @@ import Wordle from "../assets/wordle.png";
 import SocialMedia from "../assets/socialMedia.png";
 import Portfolio from "../assets/portfolio.png";
 import TypingSpeedTest from "../assets/typingSpeedTest.PNG";
+import PokeGuesser from "../assets/pokeGuesser.png";
 
 const Projects = () => {
   return (
@@ -123,7 +124,7 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-              Typing Speed Test
+                Typing Speed Test
               </span>
               <div className="pt-8 text-center">
                 <a href="https://danielcd16.github.io/typingSpeedTest/">
@@ -132,6 +133,29 @@ const Projects = () => {
                   </button>
                 </a>
                 <a href="https://github.com/Danielcd16/typingSpeedTest">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold ">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div
+            style={{ backgroundImage: `url(${PokeGuesser})` }}
+            className="shadow-lg shadow-[#040c16] group container rounder-md flex justify-center items-center mx-auto content-div"
+          >
+            {/* Hover Effects */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Pokemon Guesser
+              </span>
+              <div className="pt-8 text-center">
+                <a href="https://danielcd16.github.io/pokeGuesser/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold ">
+                    Demo
+                  </button>
+                </a>
+                <a href="https://github.com/Danielcd16/pokeGuesser">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold ">
                     Code
                   </button>
