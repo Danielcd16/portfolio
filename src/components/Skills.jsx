@@ -3,12 +3,14 @@ import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
-import FireBase from "../assets/firebase.png";
 import Typescript from "../assets/typescript.png";
-import Tailwind from "../assets/tailwind.png";
 import Mongo from "../assets/mongo.png";
 import GitHub from "../assets/github.png";
 import MySQL from "../assets/mysql.png";
+import Python from "../assets/python.png";
+import Django from "../assets/django.png";
+
+
 
 const Skills = () => {
   return (
@@ -24,11 +26,11 @@ const Skills = () => {
 
         <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={ReactImg} alt="HTML" className="w-20 mx-auto" />
+            <img src={ReactImg} alt="React" className="w-20 mx-auto" />
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={JavaScript} alt="HTML" className="w-20 mx-auto" />
+            <img src={JavaScript} alt="Javascript" className="w-20 mx-auto" />
             <p className="my-4">JAVASCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
@@ -36,35 +38,35 @@ const Skills = () => {
             <p className="my-4">HTML</p>
           </div>
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={CSS} alt="HTML" className="w-20 mx-auto" />
+            <img src={CSS} alt="CSS" className="w-20 mx-auto" />
             <p className="my-4">CSS</p>
           </div>
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={Typescript} alt="HTML" className="w-20 mx-auto" />
+            <img src={Typescript} alt="Typescript" className="w-20 mx-auto" />
             <p className="my-4">TYPESCRIPT</p>
           </div>
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={MySQL} alt="HTML" className="w-20 mx-auto" />
+            <img src={Python} alt="Python" className="w-20 mx-auto" />
+            <p className="my-4">PYTHON</p>
+          </div>
+          <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
+            <img src={Django} alt="Django" className="w-20 mx-auto" />
+            <p className="my-4">DJANGO</p>
+          </div>
+          <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
+            <img src={MySQL} alt="MySQL" className="w-20 mx-auto" />
             <p className="my-4">MYSQL</p>
           </div>
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={Mongo} alt="HTML" className="w-20 mx-auto" />
+            <img src={Mongo} alt="MongoDB" className="w-20 mx-auto" />
             <p className="my-4">MONGODB</p>
           </div>
           <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={GitHub} alt="HTML" className="w-20 mx-auto" />
+            <img src={GitHub} alt="Github" className="w-20 mx-auto" />
             <p className="my-4">GITHUB</p>
           </div>
-         
-          <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={Tailwind} alt="HTML" className="w-20 mx-auto" />
-            <p className="my-4">TAILWIND CSS</p>
-          </div>
-
-          <div className="shadow-md shadow-[#050c16] hover:scale-110 duration-500 py-2">
-            <img src={FireBase} alt="HTML" className="w-20 mx-auto" />
-            <p className="my-4">FIREBASE</p>
-          </div>
+      
+          
         </div>
       </div>
     </div>

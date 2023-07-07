@@ -15,9 +15,7 @@ const Home = () => {
           I'm a Software developer
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm an enthusiastic, responsible and hard-working software developer
-          hoping to learn new technologies and methodologies, with a passion for
-          learning and creating.
+        As a junior software developer with a strong passion for coding and problem-solving, I bring a solid foundation in software development and a keen interest in learning and growing within the industry.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#238CD8] hover:border-[#238CD8]">

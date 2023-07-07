@@ -4,7 +4,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
-import DanielChacon_resume from '../assets/DanielChacon_resume.pdf'
+import Resume from '../assets/DanielChaconResume.pdf'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -122,7 +122,7 @@ const Navbar = () => {
             <a
               className="flex justify-between items-center w-full text-gray-300"
               download="DanielChacon_resume"
-              href={DanielChacon_resume}
+              href={Resume}
             >
               Resume
               <BsFillPersonLinesFill size={30} />
